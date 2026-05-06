@@ -1,12 +1,11 @@
-import React from "react"; // 생략 가능
-import NameInput from "./NameInput";
+import ItemList from "./ItemList";
 
 const App = () => {
-	return (
-		<div>
-			<NameInput />
-		</div>
-	);
+  return (
+    <div>
+      <ItemList />
+    </div>
+  );
 };
 
 export default App;
